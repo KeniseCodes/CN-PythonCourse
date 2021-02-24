@@ -7,3 +7,9 @@ Letter input: o
 Result: 4
 
 '''
+script = input("Please enter a sentence: ")
+letter = str(input("Please enter a letter: "))
+result = script.index(letter)
+print("String input:", script)
+print("Letter input:", letter)
+print("Result:", result)
