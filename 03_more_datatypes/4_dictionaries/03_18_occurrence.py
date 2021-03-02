@@ -6,3 +6,9 @@ user_input = "hello"
 result = {"h": 1, "e": 1, "l": 2, "o": 1}
 
 '''
+string = str(input("Please enter a string:"))
+result = {}
+for x in string:
+    result.update({x:string.count(x)})
+print(result)
+
