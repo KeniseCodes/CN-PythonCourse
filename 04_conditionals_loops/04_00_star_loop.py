@@ -11,3 +11,7 @@ For example if n is 3, you print:
 '''
 
 n = 5
+x = 1
+while x < n+1:
+    print("*"*x)
+    x += 1

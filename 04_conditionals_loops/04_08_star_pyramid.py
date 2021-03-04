@@ -17,3 +17,9 @@ Another example: if input is 3, you will output
 Hint: Think of nested for loops
 
 '''
+
+n = int(input("Please enter number of rows:"))
+i = 1
+while i < n+1:
+    print("*" * i)
+    i += 1
